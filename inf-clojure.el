@@ -426,7 +426,7 @@ With prefix argument EOB-P, positions cursor at end of buffer."
 This holds a cons cell of the form `(DIRECTORY . FILE)'
 describing the last `inf-clojure-load-file' command.")
 
-(defcustom inf-clojure-source-modes '(clojure-mode)
+(defcustom inf-clojure-source-modes '(clojure-mode clojurec-mode clojurescript-mode clojurex-mode)
   "Used to determine if a buffer contains Clojure source code.
 If it's loaded into a buffer that is in one of these major modes, it's
 considered a Clojure source file by `inf-clojure-load-file'.
